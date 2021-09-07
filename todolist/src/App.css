@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap');
+
+body{
+  background: linear-gradient(105deg,#6002ad, #9198e5) ;
+  background-size: cover;
+  font-size: 20px;
+  font-family:"urbanist", sans-serif;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.app-title{
+  color: white;
+  font-size: 3rem;
+  font-family: 'oswald', sans-serif;
+  font-weight: 700;
+  display:block;
+  text-align: center;
+  
+}
+.container{
+  display: block;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  margin:auto;
+  width: 60%;
+  padding: 2%;
+  color: white;
+}
+.input-text{
+  width: 50vw;
+  padding: 10px;
+  border:  0px;
+  font-family: "urbanist", sans-serif;
+  margin:10px 10px 10px 0px;
+  border-radius: 10px;
+}
+.add-btn{
+  color: white;
+  font-family: "urbanist", sans-serif;
+  background: #6002ad;
+  float: right;
+  margin: 0;
+  padding: 8px;
+  border: 0px;
+  border-radius: 10px;
+  transition: .5s;
+}
+.add-btn:hover{
+  background: #ff0095;
+}
+.list ul {
+  padding: 0;
+  
+  list-style-type: none;
+  
+}
+.list ul li {
+  width: 58vw;
+  padding: 15px;
+  color: black;
+  font-weight: 900;
+  background: white;
+  border-radius: 10px;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+.btn{
+  color: white;
+  background-color: rgb(230, 36, 2);
+  padding: 8px;
+  border:  0px;
+  border-radius: 10px;
+  float: right;
+  margin: auto;
+  transition: .5s;
+}
+.btn:hover{
+  background-color: rgb(255, 167, 2);
+}
+.check{
+  width: 30px;
+  background: lawngreen;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
